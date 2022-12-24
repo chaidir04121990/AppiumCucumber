@@ -10,4 +10,4 @@ Feature: Login
     Given User navigate to "https://www.saucedemo.com/"
     When User input Username ""
     And user input password ""
-    Then User land on Product page
+    Then User found error message

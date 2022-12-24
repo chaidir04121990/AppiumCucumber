@@ -23,4 +23,9 @@ public class LoginDef {
     public void landProdPage(){
 
     }
+
+    @Then("User found error message")
+    public void errorMessage(){
+
+    }
 }

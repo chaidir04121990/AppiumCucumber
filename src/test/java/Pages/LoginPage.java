@@ -7,6 +7,7 @@ public class LoginPage {
     By username = By.id("user-name");
     By password = By.id("password");
     By BTNlogin = By.id("login-button");
+    By errorMsg = By.id("");
 
     public void setUsername(){
 
@@ -15,6 +16,10 @@ public class LoginPage {
 
     }
     public void clickBTNlogin(){
+
+    }
+
+    public void errorMsg(){
 
     }
 }
