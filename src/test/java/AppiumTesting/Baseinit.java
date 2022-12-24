@@ -1,3 +1,5 @@
+package AppiumTesting;
+
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -8,7 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class Base {
+public class Baseinit {
     AppiumDriver<MobileElement> driver;
 
     @BeforeMethod

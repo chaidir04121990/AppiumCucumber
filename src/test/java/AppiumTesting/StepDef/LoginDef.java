@@ -1,14 +1,16 @@
-package StepDef;
+package AppiumTesting.StepDef;
 
+
+import AppiumTesting.Baseinit;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class LoginDef {
+public class LoginDef extends Baseinit {
 
     @Given("User navigate to {string}")
-    public void navigateToWeh(String url){
+    public void navigateToWeb(String url){
 
     }
     @When("User input Username {string}")
