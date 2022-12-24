@@ -7,7 +7,7 @@ public class LoginPage {
     By username = By.id("user-name");
     By password = By.id("password");
     By BTNlogin = By.id("login-button");
-    By errorMsg = By.id("");
+    By errorMsg = By.xpath("//*[@id=\"login_button_container\"]/div/form/div[3]/h3");
 
     public void setUsername(){
 
