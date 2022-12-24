@@ -20,6 +20,5 @@ public class LoginPage {
     }
 
     public void errorMsg(){
-
     }
 }
