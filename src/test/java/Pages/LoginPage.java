@@ -7,14 +7,21 @@ public class LoginPage {
     By username = By.id("user-name");
     By password = By.id("password");
     By BTNlogin = By.id("login-button");
+    By errorMsg = By.id("error");
 
-    public void setUsername(){
-
-    }
-    public void setPassword(){
+    public void setUsername() {
 
     }
-    public void clickBTNlogin(){
+
+    public void setPassword() {
+
+    }
+
+    public void clickBTNlogin() {
+
+    }
+
+    public void errorUsernameOrPass() {
 
     }
 }
