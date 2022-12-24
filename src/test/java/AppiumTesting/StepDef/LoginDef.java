@@ -2,6 +2,7 @@ package AppiumTesting.StepDef;
 
 
 import AppiumTesting.Baseinit;
+import AppiumTesting.Pages.LoginPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -29,6 +30,13 @@ public class LoginDef extends Baseinit {
     @Then("Error notification will be shown")
     public void errorUsernameOrPass(){
         
+    }
+
+    @Then("Error message will be display")
+    public void errorEmptyCredentials(){
+        LoginPage LoginPage = new LoginPage();
+
+        LoginPage.ErrorMsg();
     }
     
 }
