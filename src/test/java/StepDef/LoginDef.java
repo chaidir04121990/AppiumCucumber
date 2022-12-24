@@ -23,4 +23,10 @@ public class LoginDef {
     public void landProdPage(){
 
     }
+
+    @Then("Error notification will be shown")
+    public void errorUsernameOrPass(){
+        
+    }
+    
 }
